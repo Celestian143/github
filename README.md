@@ -15,10 +15,11 @@
   &nbsp;
   <a href="https://celestian-portfolio.netlify.app"><img src="https://img.shields.io/badge/Portfolio-celestian-00C7B7?style=flat-square&logo=netlify&logoColor=white"/></a>
 </p>
+---
  
 ## 🧑‍💻 About Me
  
-
+```python
 class Celestian:
     def __init__(self):
         self.name                = "Celestian A"
@@ -48,7 +49,9 @@ class Celestian:
  
 me = Celestian()
 print(me.motto())
-
+```
+ 
+---
  
 ## 🛠️ Tech Stack
  
