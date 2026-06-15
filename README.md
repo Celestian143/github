@@ -20,9 +20,9 @@
 
 ---
 
-## 🧑‍💻 About Me
 
-```python
+
+
 class Celestian:
     def __init__(self):
         self.name            = "Celestian A"
