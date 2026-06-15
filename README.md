@@ -22,7 +22,7 @@
 
 ## 🧑‍💻 About Me
 
-```python
+```py
 class Celestian:
     def __init__(self):
         self.name                = "Celestian A"
