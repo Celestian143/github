@@ -25,29 +25,30 @@
 ```python
 class Celestian:
     def __init__(self):
-        self.name            = "Celestian A"
-        self.location        = "Chennai, Tamil Nadu, India 🇮🇳"
-        self.degree          = "B.Tech – Artificial Intelligence & Data Science (2026)"
-        self.college         = "Nehru Institute of Engineering and Technology (Anna University)"
-        self.cgpa            = "82%"
+        self.name                = "Celestian A"
+        self.location            = "Chennai, Tamil Nadu, India"
+        self.degree              = "B.Tech - Artificial Intelligence and Data Science (2026)"
+        self.college             = "Nehru Institute of Engineering and Technology"
+        self.score               = "82%"
 
-        self.stack = [
+        self.stack               = [
             "Python", "SQL", "TensorFlow", "PyTorch", "LangChain",
             "OpenCV", "Scikit-learn", "Pandas", "NumPy", "FastAPI",
             "Flask", "Docker", "AWS", "Power BI"
         ]
 
-        self.currently_learning = [
+        self.currently_learning  = [
             "Advanced RAG Pipelines",
             "LLM Fine-Tuning",
             "dbt + Modern Data Stack",
-            "Meta Data Analyst Certification (in progress)"
+            "Meta Data Analyst Certification"
         ]
 
-        self.fun_fact = "I built a real-time deepfake detector that runs at 150–300 ms latency 🎭"
+        self.fun_fact            = "Built a deepfake detector running at 150-300 ms latency"
+        self.open_to             = ["AI Engineer", "ML Engineer", "Data Analyst"]
 
     def motto(self):
-        return "Build AI that matters. Analyse data that speaks. Ship systems that scale. 🚀"
+        return "Build AI that matters. Analyse data that speaks. Ship systems that scale."
 
 me = Celestian()
 print(me.motto())
